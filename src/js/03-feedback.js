@@ -24,8 +24,6 @@ function formSubmit(event) {
 
         localStorage.removeItem(LOCAL_STORAGE);
         items = {};
-
-        
     };
 };
 
