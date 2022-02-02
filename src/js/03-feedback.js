@@ -18,6 +18,7 @@ function formSubmit(event) {
 
     if (form.email.value === '' || form.message.value === '') {
         alert('All fields are required!');
+        event.currentTarget.reset();
     } else {
         console.log(items);
         event.currentTarget.reset();

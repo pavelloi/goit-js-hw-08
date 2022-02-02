@@ -23,6 +23,6 @@ function onPictureClick(e) {
     e.preventDefault();
 } 
 
-let originalPictures = new SimpleLightbox('.gallery a', {captionsData:'alt'}, {captionDelay: 250});  
+let originalPictures = new SimpleLightbox('.gallery a', {captionsData:'alt', captionDelay: 250});  
 
 console.log(galleryItems);
